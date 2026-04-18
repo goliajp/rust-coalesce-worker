@@ -1,5 +1,13 @@
 # coalesce-worker
 
+[![Crates.io](https://img.shields.io/crates/v/coalesce-worker?style=flat-square&logo=rust)](https://crates.io/crates/coalesce-worker)
+[![docs.rs](https://img.shields.io/docsrs/coalesce-worker?style=flat-square&logo=docs.rs)](https://docs.rs/coalesce-worker)
+[![License](https://img.shields.io/crates/l/coalesce-worker?style=flat-square)](LICENSE)
+[![MSRV](https://img.shields.io/badge/MSRV-1.94-blue?style=flat-square&logo=rust)](Cargo.toml)
+[![Downloads](https://img.shields.io/crates/d/coalesce-worker?style=flat-square)](https://crates.io/crates/coalesce-worker)
+
+**English** | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
+
 A coalescing worker thread with generation-counter stale-result
 rejection — the discipline needed to run tree-sitter (or any expensive
 computation) off the main thread without applying out-of-date results.

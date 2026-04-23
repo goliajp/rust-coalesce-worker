@@ -1,6 +1,6 @@
 [package]
 name = "coalesce-worker"
-version = "0.1.1"
+version = "0.1.2"
 description = "Coalescing worker thread with generation-counter stale-result rejection — the discipline needed to run tree-sitter (or any expensive computation) off the main thread without applying out-of-date results"
 keywords = ["coalescing", "worker", "debounce", "tree-sitter", "background"]
 categories = ["asynchronous", "concurrency", "gui"]

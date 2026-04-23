@@ -1,15 +1,15 @@
 [package]
 name = "coalesce-worker"
-version = "0.1.0"
+version = "0.1.1"
 description = "Coalescing worker thread with generation-counter stale-result rejection — the discipline needed to run tree-sitter (or any expensive computation) off the main thread without applying out-of-date results"
 keywords = ["coalescing", "worker", "debounce", "tree-sitter", "background"]
 categories = ["asynchronous", "concurrency", "gui"]
-edition.workspace = true
-rust-version.workspace = true
-license.workspace = true
-repository.workspace = true
-homepage.workspace = true
-authors.workspace = true
+edition = "2024"
+rust-version = "1.94"
+license = "MIT"
+repository = "https://github.com/goliajp/rust-coalesce-worker"
+homepage = "https://github.com/goliajp/rust-coalesce-worker"
+authors = ["GOLIA株式会社", "Li Hao <lihao@golia.jp>"]
 readme = "README.md"
 documentation = "https://docs.rs/coalesce-worker"
 
@@ -17,3 +17,7 @@ documentation = "https://docs.rs/coalesce-worker"
 
 [[example]]
 name = "coalesce_demo"
+
+[profile.release]
+lto = true
+codegen-units = 1

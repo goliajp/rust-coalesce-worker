@@ -145,7 +145,7 @@ Extracted from [`goliajp/tora`](https://github.com/goliajp/tora) —
 `crates/tora-syntax/src/async_highlighter.rs`, where it drove
 syntax highlighting for 19 tree-sitter languages in a GUI editor.
 
-<!-- ECOSYSTEM BEGIN (synced by claws/opensource/scripts/sync-ecosystem.py — edit ecosystem.toml, not this block) -->
+<!-- ECOSYSTEM BEGIN (generated — edit ecosystem.toml, not this block) -->
 
 ## Ecosystem
 

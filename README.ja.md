@@ -81,7 +81,7 @@ coalesce-worker = "0.1"
 
 [`goliajp/tora`](https://github.com/goliajp/tora) の `crates/tora-syntax/src/async_highlighter.rs` から抽出。GUI エディタの 19 言語 tree-sitter シンタックスハイライトを駆動していました。
 
-<!-- ECOSYSTEM BEGIN (synced by claws/opensource/scripts/sync-ecosystem.py — edit ecosystem.toml, not this block) -->
+<!-- ECOSYSTEM BEGIN (generated — edit ecosystem.toml, not this block) -->
 
 ## エコシステム
 

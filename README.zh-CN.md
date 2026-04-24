@@ -81,7 +81,7 @@ coalesce-worker = "0.1"
 
 从 [`goliajp/tora`](https://github.com/goliajp/tora) 的 `crates/tora-syntax/src/async_highlighter.rs` 抽出——在那里它驱动一个 GUI 编辑器对 19 种 tree-sitter 语言的语法高亮。
 
-<!-- ECOSYSTEM BEGIN (synced by claws/opensource/scripts/sync-ecosystem.py — edit ecosystem.toml, not this block) -->
+<!-- ECOSYSTEM BEGIN (generated — edit ecosystem.toml, not this block) -->
 
 ## 生态系统
 

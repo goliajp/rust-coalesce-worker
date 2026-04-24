@@ -81,6 +81,20 @@ coalesce-worker = "0.1"
 
 从 [`goliajp/tora`](https://github.com/goliajp/tora) 的 `crates/tora-syntax/src/async_highlighter.rs` 抽出——在那里它驱动一个 GUI 编辑器对 19 种 tree-sitter 语言的语法高亮。
 
+<!-- ECOSYSTEM BEGIN (synced by claws/opensource/scripts/sync-ecosystem.py — edit ecosystem.toml, not this block) -->
+
+## 生态系统
+
+GOLIA Rust GUI/GPU 基础设施系列的一部分 —— 每个 crate 抽自真实生产事故，独立版本发布：
+
+| Crate / Package | 仓库 | 说明 |
+|---|---|---|
+| [metal-live-resize](https://crates.io/crates/metal-live-resize) | [rust-metal-live-resize](https://github.com/goliajp/rust-metal-live-resize) | macOS Metal 窗口无抖动实时缩放（CAMetalLayer contentsGravity + contentsScale） |
+| **coalesce-worker**（本 crate） | [rust-coalesce-worker](https://github.com/goliajp/rust-coalesce-worker) | 合并式 worker 线程 + 代际计数器丢弃过时结果 |
+| [damage-rects](https://crates.io/crates/damage-rects) | [rust-damage-rects](https://github.com/goliajp/rust-damage-rects) | 累积、合并并输出脏矩形用于部分 GPU 重绘 |
+
+<!-- ECOSYSTEM END -->
+
 ## 许可证
 
 MIT —— 见 [LICENSE](LICENSE)。

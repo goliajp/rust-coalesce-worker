@@ -18,7 +18,7 @@
 
 编辑器把语法高亮丢到后台线程。用户快速打字，主线程每次按键都发一个高亮请求。worker 一次只能处理一个。等第 N-5 个请求跑完时，源码已经到了第 N 个状态，根据陈旧的 N-5 源码算出来的 span 所指向的字节偏移已经不存在了。如果主线程还是把它们应用上去，UI 就会渲染错乱。
 
-这就是 `.claude/rules/common/classic-errors.md` 里记录的 **"stale async cache after mutation"** 失败模式。
+这就是 **"stale async cache after mutation"** 失败模式。
 
 ## 修复
 

@@ -30,8 +30,7 @@ request N-5 finishes, the source is at state N and the spans computed
 from the stale N-5 source point at byte offsets that no longer exist.
 If the main thread applies them anyway the UI corrupts.
 
-This is the **"stale async cache after mutation"** failure mode
-documented in `.claude/rules/common/classic-errors.md`.
+This is the **"stale async cache after mutation"** failure mode.
 
 ## The fix
 

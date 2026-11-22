@@ -14,8 +14,8 @@
 //! spans pointing at byte offsets that no longer exist, causing
 //! rendering glitches or panics.
 //!
-//! This class of bug is documented in `goliajp/devops/dotclaude/common/classic-errors.md`
-//! as **"Stale async cache after mutation"**.
+//! The rule that follows: a result computed against an older version of
+//! the input must be discarded, never applied.
 //!
 //! # The fix
 //!
